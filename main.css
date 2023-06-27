@@ -7,13 +7,15 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
+    background-color: #1F2937;
 }
 
 .logo {
     display: flex;
     height: 50px;
+    margin: 0px 20px;
 }
 
 .nav-links {
@@ -25,8 +27,13 @@ body {
     padding: 0px;
 }
 
+.nav-item>a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-links>ul>li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 18px;
 }
