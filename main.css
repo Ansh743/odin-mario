@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Hero;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links>ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav-links>ul>li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 18px;
+}
