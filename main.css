@@ -68,3 +68,12 @@ body {
     margin: 0px 25px;
 }
 
+.signup-btn {
+    width: 90px;
+    margin: 10px 0px;
+    background-color: #3882F6;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+}
