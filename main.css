@@ -37,3 +37,33 @@ body {
     margin-left: 15px;
     font-size: 18px;
 }
+
+.section-1 {
+    background-color: #1F2937;
+    color: #ffffff;
+    padding: 100px 40px;
+    display: flex;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.sub-main-text {
+    font-size: 18px;
+    line-height: 0.8;
+}
+
+
+.des {
+    display: flex;
+    flex-direction: column;
+}
+
+.des-img {
+    display: flex;
+    width: 600px;
+    margin: 0px 25px;
+}
+
