@@ -79,3 +79,50 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
+
+.section-2 {
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustrations {
+    display: flex;
+    gap: 20px;
+}
+
+.char-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.box {
+    display: block;
+    border: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.char-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: auto;
+}
+
+.char-des {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    font-style: italic;
+}
