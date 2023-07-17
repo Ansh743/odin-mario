@@ -150,3 +150,35 @@ body {
     line-height: 2;
     float: right;
 }
+
+.section-4 {
+    padding: 80px 40px;
+}
+
+.toast {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: #3882F6;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.toast-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.toast-heading {
+    font-weight: bolder;
+}
+
+.toast-des {
+    font-weight: light;
+}
+
+.toast-right {
+    display: flex;
+}
