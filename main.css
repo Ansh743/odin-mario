@@ -126,3 +126,27 @@ body {
     color: rgb(88, 88, 88);
     font-style: italic;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 100px 40px;
+}
+
+.quote {
+    width: 70%;
+    margin: auto;
+    color: black;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.9;
+}
+
+.quote-by {
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2;
+    float: right;
+}
